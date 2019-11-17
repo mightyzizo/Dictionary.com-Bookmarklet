@@ -1,2 +1,2 @@
 # Dictionary.com-Bookmarklet
-This is a bookmarklet for quickly searching a word in Dictionary.com
+This is a bookmarklet for quickly searching a word in Dictionary.com. <p>To install it, just drag the <a class="bookmarklet" href="javascript:void (function(){try{var b=window.getSelection(),a=b?b.toString().replace(/(^\W+|\W+$)/g,''):'';if(!a){a=prompt('Enter a word to look up');if(!a)return}var c='https://www.dictionary.com/browse/'+encodeURIComponent(a)+'?s=t';window.open(c)}catch(d){alert('Oops:\n'+d.message)}})();">Define</a> Bookmarklet into your browser bookmarks bar
